@@ -126,7 +126,7 @@ div.actionsFlex > a {
   display: flex;
   flex-direction: column;
   flex: 1;
-  row-gap: 128px;
+  row-gap: 72px;
   margin-top: -32px;
 }
 
