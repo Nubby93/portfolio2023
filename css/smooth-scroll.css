@@ -38,42 +38,6 @@ body::-webkit-scrollbar {
   background-size: cover;
   z-index: -1;
 }
-/* .img:nth-of-type(1) {
-  background-image: url("../assets/tlk/TLK_splash.jpg");
-}
-.img:nth-of-type(2) {
-  background-image: url("../assets/2.jpg");
-}
-.img:nth-of-type(3) {
-  background-image: url("../assets/3.jpg");
-}
-.img:nth-of-type(4) {
-  background-image: url("../assets/4.jpg");
-}
-.img:nth-of-type(5) {
-  background-image: url("../assets/uiboat/UIBoat_Splash.jpg") !important;
-}
-.img:nth-of-type(6) {
-  background-image: url("../assets/6.jpg");
-}
-.img:nth-of-type(7) {
-  background-image: url("../assets/7.jpg");
-}
-.img:nth-of-type(8) {
-  background-image: url("../assets/8.jpg");
-}
-.img:nth-of-type(9) {
-  background-image: url("../assets/9.jpg");
-}
-.img:nth-of-type(10) {
-  background-image: url("../assets/10.jpg");
-}
-.img:nth-of-type(11) {
-  background-image: url("../assets/11.jpg");
-}
-.img:nth-of-type(12) {
-  background-image: url("../assets/12.jpg");
-} */
 
 
 .img:before {
@@ -91,34 +55,7 @@ body::-webkit-scrollbar {
   border-right: 1px solid var(--black);
 }
 
-.img-bg-hurt {
-  background-image: url("../assets/hurt/hurt_splash.jpg");
-  background-position: center;
-}
 
-.img-bg-uiboat {
-  background-image: url("../assets/general/uiboat_thumb.jpg");
-  background-position: center;
-}
-
-
-.img-bg-tlk {
-  background-image: url("../assets/tlk/TLK_splash.jpg");
-}
-
-
-.img-bg-cal2023 {
-  background-image: url("../assets/hurt/hurt_splash.jpg");
-}
-
-
-.img-bg-black-bulls {
-  background-image: url("../assets/hurt/hurt_splash.jpg");
-}
-
-.img-bg-csspuns {
-  background-image: url("../assets/general/css_puns_thumb.jpg");
-}
 
 
 
