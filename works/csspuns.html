@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+	  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-CPNY54K9QL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-CPNY54K9QL');
+</script>
+	<meta charset="UTF-8">
+	<title>Iulian Pistol - Web Designer</title>
+	<link rel="stylesheet" href="../css/general.css">
+	<link rel="stylesheet" href="../css/navigation.css">
+	<link rel="stylesheet" href="../css/smooth-scroll.css">
+   <link rel="shortcut icon" href="../assets/favicon.jpg" type="image/x-icon">
+   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>  
+  
+   <meta name="description" content="A web designer with vast experience in creating brands and products.">
+  </head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+
+<div id="nav-placeholder">
+</div>
+
+
+<main>
+	<section class="hero-section flex-col-gap-64 margin-height-256 animate__animated animate__fadeInDown">
+
+		<article class="flex-col-gap-32 grid-col-center">
+			<p class="display-lg-regular  max-width-50">This collection of <strong>CSS puns</strong> is an ode to the Reddit thread that went viral years ago.</p>
+		</article>
+
+		<a class="nav-button" target="_blank" href="https://iulianpistol.gumroad.com/l/css-puns">Download for free</a>
+	</section>
+
+	
+    <section class="work-bg-full animate__animated animate__fadeInUp work-bg-primary-600">
+	    <img class="" src="../assets/csspuns/moses.png" alt="CSS Puns - for your entertainment">
+    </section>
+
+    <section class="work-bg-full work-bg-faded-pink">
+	    <img class="" src="../assets/csspuns/muscles.png" alt="CSS Puns - for your entertainment">
+    </section>
+
+    <section class="work-bg-full work-bg-primary-600">
+	    <img class="" src="../assets/csspuns/carousel.gif" alt="CSS Puns - for your entertainment">
+    </section>
+
+</main>
+
+<!-- partial -->
+<div id="bottom-cta" class="section-snap"></div>
+	<div id="footer-placeholder"  class="section-snap"></div>
+
+<!--Calling components-->
+<script>
+    $(function(){
+      $("#nav-placeholder").load("../components/nav.html");
+    });
+
+    $(function(){
+      $("#bottom-cta").load("../components/bottom-cta.html");
+    });
+    
+    $(function(){
+      $("#footer-placeholder").load("../components/footer.html");
+    });
+    </script>
+<!--Calling components-->
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js'></script><script  src="../js/navigation.js"></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js'></script><script  src="../js/side.js"></script> -->
+
+<!-- Sticky side menu -->
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script  src="../js/sticky-side-menu.js"></script>
+</body>
+</html>
