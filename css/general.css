@@ -157,6 +157,7 @@ body {
 
 /* Typography */
 
+
 .display-2xl-regular{
     font-size: clamp(2rem, 4vw, 4.5rem); 
     font-weight: 400;
@@ -840,7 +841,7 @@ section.work-bg-full > article > p:last-child {
     justify-items: center;
     align-content: center;
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
     background-color: var(--primary-600);
 }
 
@@ -866,7 +867,7 @@ section.work-bg-full > article > p:last-child {
 
 .bottom-cta {
     width: 100vw;
-    height: 110vh;
+    height: 115vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -908,5 +909,45 @@ section.work-bg-full > article > p:last-child {
 }
 
 
+.display-contact{
+    font-size: 10rem; 
+    font-weight: 600;
+    line-height: 160px;
+    letter-spacing: -0.02em;
+}
+
+.contact {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 64px;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 256px;
+}
+
+.contact-text > article {
+    display: flex;
+    flex-direction: row;
+    column-gap: 128px;
+}
+
+.contact-text > article > p {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 
 
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}

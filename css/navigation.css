@@ -178,6 +178,10 @@ div.actionsFlex > a {
   color: var(--grey-600);
 }
 
-.nav__email a:hover {
+/* .nav__email a:hover {
   text-decoration: underline;
+} */
+
+.nav__right {
+  width: 360px;
 }
