@@ -4,9 +4,9 @@ html, body {
   min-height: 100%;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
   display: none;
-}
+} */
 
 .smooth-text {
   font-size: 14rem;
