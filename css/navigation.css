@@ -185,3 +185,11 @@ div.actionsFlex > a {
 .nav__right {
   width: 360px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+  .nav__left {
+    display: none;
+  }
+}
+

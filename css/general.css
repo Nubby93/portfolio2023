@@ -1001,6 +1001,7 @@ section.work-bg-full > article > p:first-child {
     align-items: center;
     justify-content: space-between;
     padding: 0px 64px;
+    row-gap: 64px;
 }
 
 .contact-text {
@@ -1046,7 +1047,7 @@ text-transform: uppercase;
     flex-wrap: wrap;
     padding: 256px 64px;
     column-gap: 384px;
-    row-gap: 384px;
+    row-gap: 64px;
 }
 
 .about-header {
